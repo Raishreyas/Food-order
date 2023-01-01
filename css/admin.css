@@ -1,0 +1,159 @@
+    /*
+    Aurthor: Shreyas Rai;
+    Theme: food Order Website admin;
+    version: 1.0;
+    */
+    /*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+.color-palettes
+{
+    color: #9227F9;
+    color: #633BF3;
+    color: #dce2f1;
+    color: #ffffff;
+}
+    *{
+        margin: 0 0;
+        padding: 0 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .clearfix{
+        float: none;
+        clear: both;
+    }
+    .wrapper{
+        padding: 1%;
+        width: 80%;
+        margin: 0 auto
+        ;
+    }
+
+    .text-center{
+        text-align: center;
+    }
+    /* CSS FOR MENU */
+    .menu{
+        text-align: center;
+        border-bottom: 5px solid #DCEDC1;
+        background-color:#A8E6CF;
+        
+    }
+    .menu ul{
+        list-style-type: none;
+        
+    }
+    .menu ul li{
+        display: inline;
+        padding: 1%;
+        
+
+    }
+    .menu ul li a{
+        text-decoration: none;
+        font-weight: bold;
+        color: #fca266;
+    }
+    .menu ul li a:hover{
+        color: #ff7a73;
+    }
+
+    /*css for main content*/
+    .maincontent{
+        
+        background-color: #A8E6CF;
+        padding: 3% 0;
+        
+        
+
+    }
+    .col-4{
+        width: 18%;
+        background-color: #A8E6CF;
+        margin: 1%;
+        padding: 2%;
+        float: left;
+        
+    }
+
+    .tbl-full{
+        width: 100%;
+    }
+
+    .tbl-30{
+        width: 30%;
+    }
+
+    table tr th{
+        padding: 1%;
+        border-bottom: 1px solid black;
+        text-align: left;
+    }
+
+    table tr td{
+        padding: 1%;
+    }
+    .btn-primary{
+        background-color: #1e90ff;
+        padding: 1%;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+
+    }
+    .btn-primary:hover{
+        background-color: #3742fa;
+    }
+    
+    
+    .btn-secondary{
+        background-color: #7bed9f;
+        padding: 1%;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+
+    }
+    .btn-secondary:hover{
+        background-color: #2ed573;
+    }
+    
+    .btn-Danger{
+        background-color: #ff6b81;
+        padding: 1%;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+
+    }
+    .btn-Danger:hover{
+        background-color: #ff4757;
+    }
+
+    .sucess{
+        color: #2ed573;
+
+    }
+    .success{
+        color: #2ed573;
+
+    }
+
+    .error{
+        color: #ff4757;
+    }
+
+    /*  Designing footer */
+    .footer{
+        background-color: #A8E6CF;
+        color: white;
+        border-top: 5px solid #DCEDC1;
+        
+    }  
+
+    /* login page */
+    .loginpage{
+        width: 30%;
+        border: 1px solid grey;
+        margin: 10% auto;
+        padding: 2%;
+    }
